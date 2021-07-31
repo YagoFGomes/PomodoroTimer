@@ -2,15 +2,33 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Pomodoro Timer</title>
   </head>
   <body>
-    <h1>Heleeweweweqlo World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <header class='header'>
+      <h1 class = 'title'>Pomodoro Timer</h1>
+    </header>
+
+    <main class="main">
+      <!--pomodoro clock-->
+        <div class="clock">
+          <div class="countdown">
+            <div class="values">00m 00s</div>
+          </div>
+          <span class="text-inside title">Focus</span>
+        </div>
+    </main>
+
+    <footer class='footer'>
+      <!--Button start / pause-->
+      <input type="button" value="Start">
+    </footer>
+
+    <script src="../scripts/index.js"></script>
   </body>
 </html>
