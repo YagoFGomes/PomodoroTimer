@@ -5,9 +5,10 @@
   "author": "@YagoFGomes @Brun0Lass - Yago Ferreira, Bruno Luis",
   "license": "MIT",
   "dependencies": {
-    "electron": "^13.1.7"
+    "electron": "^13.1.7",
+    "fs": "^0.0.1-security"
   },
-  "scripts":{
-    "start":"node start.js"
+  "scripts": {
+    "start": "node www/scripts/start.js"
   }
 }
