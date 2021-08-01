@@ -62,4 +62,10 @@ footer{
     border: none;
     font-family: 'Poppins-Bold';
     color: white;
+    cursor:pointer;
+    transition: 0.3s;
+}
+#button:hover{
+    background: whitesmoke;
+    color:#4f1372;
 }
