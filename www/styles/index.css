@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'Poppins-Bold';
-    src: url('../fonts/Poppins-SemiBold.ttf');
+    src: url('../fonts/Poppins-Bold.ttf');
 }
 
 header{
@@ -22,7 +22,7 @@ body{
 h1{
     font-family: 'Poppins-Bold';
     color: #AC7ACB;
-    font-size: 42px;
+    font-size: 36px;
     margin: 60px;
 }
 .clock{
