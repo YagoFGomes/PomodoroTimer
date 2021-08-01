@@ -44,10 +44,12 @@ h1{
 .text-inside{
     font-family: 'Poppins-Bold';
     display: flex;
-    justify-content: center;
+    margin:0 auto;
     font-weight: 700;
     color: #FFFFFF;  
     font-size: 14px;
+    width: 43px;
+    border-bottom: 1px solid #AC7ACB;
 }
 footer{
     display:flex;
@@ -55,7 +57,7 @@ footer{
     align-content: center;
 }
 #button{
-    margin-top: 20px;
+    margin-top: 35px;
     padding: 5px 40px;
     background: #5C1985;
     border-radius: 13px;
