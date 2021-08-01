@@ -2,18 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../scripts/index.js"></script>
     <title>Pomodoro Timer</title>
   </head>
   <body>
     <header class='header'>
       <h1 class = 'title'>Pomodoro Timer</h1>
     </header>
-
     <main class="main">
       <!--pomodoro clock-->
         <div class="clock">
@@ -22,13 +20,10 @@
           </div>
           <span class="text-inside title">Focus</span>
         </div>
-    </main>
-
+      </main>
     <footer class='footer'>
       <!--Button start / pause-->
-      <input id="button" type="button" value="Start">
-    </footer>
-
-    <script src="../scripts/index.js"></script>
+      <input id="button" type="button" value="Start" onclick="startCounter()">
+    </footer> 
   </body>
 </html>
