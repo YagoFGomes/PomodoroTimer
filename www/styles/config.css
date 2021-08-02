@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+header{
+    display:flex;
+    justify-content:center; 
+    align-content: center;
+}
+body{
+  background: #0D0C0C;
+}
+input:focus{
+    border-bottom: 1px solid #85194D;
+}
+h1{
+    font-family: 'Poppins-Bold';
+    color: #85194D;
+    font-size: 36px;
+    margin: 60px;
+}
+label{
+    font-family: 'Poppins-bold';
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+main{
+    height: 238px;
+}
+.mainTop{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+}
+.blockRight{
+    
+    padding:50px;
+}
+.blockLeft{
+   
+    padding:50px;
+}
+.mainBot{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+main input{
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid #705183;
+    width: 158px;
+    font-size: 14px;
+    text-align:center;
+    color:#FFFFFF;
+}
+h1 .title{
+    font-size:36px;
+}
+.center{
+    padding:50px;
+}
+#buttonReturn{
+    margin-top: 35px;
+    padding: 5px 40px;
+    background: #5C1985;
+    border-radius: 13px;
+    border: none;
+    font-family: 'Poppins-Bold';
+    color: white;
+    cursor:pointer;
+    transition: 0.3s;
+}
+#buttonReturn:hover{
+    background: whitesmoke;
+    color:#5C1985;
+}
+#buttonSave{
+    background: whitesmoke;
+    color:#4f1372;
+    margin-top: 35px;
+    padding: 5px 40px;
+    background: #85194D;
+    border-radius: 13px;
+    border: none;
+    font-family: 'Poppins-Bold';
+    color: white;
+    cursor:pointer;
+    transition: 0.3s;
+}
+#buttonSave:hover{
+    background: whitesmoke;
+    color:#85194D;
+}
+footer{
+    margin-top: 35px;
+    display:flex;
+    justify-content:center; 
+    align-content: center;
+}
+#buttonSave{
+    margin-left: 30px;
+}
+#buttonReturn{
+    margin-right: 30px;
+}
