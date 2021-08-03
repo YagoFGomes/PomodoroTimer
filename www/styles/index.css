@@ -1,3 +1,6 @@
+*{
+    user-select: none;
+}
 @font-face {
     font-family: 'Poppins-Light';
     src: url('../fonts/Poppins-Light.ttf');
@@ -70,4 +73,8 @@ footer{
 #button:hover{
     background: whitesmoke;
     color:#4f1372;
+}
+.values:hover{
+    cursor: pointer;
+    
 }
