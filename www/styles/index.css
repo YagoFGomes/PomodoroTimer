@@ -13,7 +13,10 @@
     font-family: 'Poppins-Bold';
     src: url('../fonts/Poppins-Bold.ttf');
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 header{
     display:flex;
     justify-content:center; 
@@ -40,6 +43,12 @@ h1{
     font-family: 'Poppins-Light';
     color: white;
     text-align: center;
+    transition: .75s;
+}
+.values:hover{
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Poppins';
 }
 .countdown{
     margin-top: 80px;
@@ -74,7 +83,11 @@ footer{
     background: whitesmoke;
     color:#4f1372;
 }
-.values:hover{
-    cursor: pointer;
-    
+img{
+    max-height:30px;
+    width: 30px; 
+    align-self:flex-end;
+    padding-left:95%;
+    padding-top: 3%;
 }
+
