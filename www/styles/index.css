@@ -64,12 +64,12 @@ h1{
     border-bottom: 1px solid #AC7ACB;
 }
 footer{
-    display:flex;
-    justify-content:center; 
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
 }
 #button{
     margin-top: 35px;
+    margin-left:333px;
     padding: 5px 40px;
     background: #5C1985;
     border-radius: 13px;
@@ -84,10 +84,14 @@ footer{
     color:#4f1372;
 }
 img{
+    max-height:25px;
+    width: 25px; 
+    margin-left:95%;
+    margin-top:2.5%;
+    transition:0.3s;
+}
+img:hover{
+    cursor: pointer;
     max-height:30px;
     width: 30px; 
-    align-self:flex-end;
-    padding-left:95%;
-    padding-top: 3%;
 }
-

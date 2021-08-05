@@ -112,12 +112,24 @@ h1 .title{
 footer{
     margin-top: 35px;
     display:flex;
-    justify-content:center; 
     align-content: center;
+    justify-content: center;
 }
 #buttonSave{
-    margin-left: 30px;
+    
 }
 #buttonReturn{
     margin-right: 30px;
+   
+}
+img{
+    max-height:25px;
+    width: 25px; 
+    margin-left:95%;
+    transition:0.3s;
+}
+img:hover{
+    cursor: pointer;
+    max-height:30px;
+    width: 30px; 
 }
